@@ -21,7 +21,7 @@ B表关联A表<br>
 ## 安装
 
 ```bash
-composer require laravel-admin-ext/selsecty
+composer require laravel-admin-exts/selecty
 ```
 
 ## 配置
