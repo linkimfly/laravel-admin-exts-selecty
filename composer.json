@@ -1,0 +1,33 @@
+{
+    "name": "laravel-admin-ext/selecty",
+    "description": "selecty extension for laravel-admin",
+    "type": "library",
+    "keywords": ["laravel-admin", "extension"],
+    "homepage": "https://github.com/linkimfly/laravel-admin-ext-selecty",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "linkimfly",
+            "email": "linkimfly@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "encore/laravel-admin": "~1.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Encore\\Selecty\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Encore\\Selecty\\SelectyServiceProvider"
+            ]
+        }
+    }
+}
